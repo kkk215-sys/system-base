@@ -1,0 +1,39 @@
+{
+  "name": "System Base",
+  "short_name": "SysBase",
+  "description": "Трекер plural-системы",
+  "start_url": "/system-base/",
+  "scope": "/system-base/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07070f",
+  "theme_color": "#8b79ff",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Альтеры",
+      "url": "/system-base/#members",
+      "description": "Открыть список альтеров"
+    },
+    {
+      "name": "Фронтинг",
+      "url": "/system-base/#fronting",
+      "description": "Управление фронтингом"
+    }
+  ]
+}
